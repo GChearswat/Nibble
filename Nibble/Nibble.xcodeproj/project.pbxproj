@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A742C5618412A4600B3CB79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A742C5518412A4600B3CB79 /* UIKit.framework */; };
+		0A742C5818412A4600B3CB79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A742C5718412A4600B3CB79 /* Foundation.framework */; };
+		0A742C5A18412A4600B3CB79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A742C5918412A4600B3CB79 /* CoreGraphics.framework */; };
+		0A742C6018412A4600B3CB79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A742C5E18412A4600B3CB79 /* InfoPlist.strings */; };
+		0A742C6218412A4600B3CB79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A742C6118412A4600B3CB79 /* main.m */; };
+		0A742C6618412A4600B3CB79 /* NBLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A742C6518412A4600B3CB79 /* NBLAppDelegate.m */; };
+		0A742C6818412A4600B3CB79 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A742C6718412A4600B3CB79 /* Default.png */; };
+		0A742C6A18412A4600B3CB79 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A742C6918412A4600B3CB79 /* Default@2x.png */; };
+		0A742C6C18412A4600B3CB79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A742C6B18412A4600B3CB79 /* Default-568h@2x.png */; };
+		0A742C6F18412A4600B3CB79 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A742C6D18412A4600B3CB79 /* MainStoryboard.storyboard */; };
+		0A742C7218412A4600B3CB79 /* NBLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A742C7118412A4600B3CB79 /* NBLViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A742C5218412A4600B3CB79 /* Nibble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nibble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A742C5518412A4600B3CB79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A742C5718412A4600B3CB79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A742C5918412A4600B3CB79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A742C5D18412A4600B3CB79 /* Nibble-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nibble-Info.plist"; sourceTree = "<group>"; };
+		0A742C5F18412A4600B3CB79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A742C6118412A4600B3CB79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A742C6318412A4600B3CB79 /* Nibble-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nibble-Prefix.pch"; sourceTree = "<group>"; };
+		0A742C6418412A4600B3CB79 /* NBLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLAppDelegate.h; sourceTree = "<group>"; };
+		0A742C6518412A4600B3CB79 /* NBLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLAppDelegate.m; sourceTree = "<group>"; };
+		0A742C6718412A4600B3CB79 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0A742C6918412A4600B3CB79 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0A742C6B18412A4600B3CB79 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0A742C6E18412A4600B3CB79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0A742C7018412A4600B3CB79 /* NBLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLViewController.h; sourceTree = "<group>"; };
+		0A742C7118412A4600B3CB79 /* NBLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A742C4F18412A4600B3CB79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A742C5618412A4600B3CB79 /* UIKit.framework in Frameworks */,
+				0A742C5818412A4600B3CB79 /* Foundation.framework in Frameworks */,
+				0A742C5A18412A4600B3CB79 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A742C4918412A4600B3CB79 = {
+			isa = PBXGroup;
+			children = (
+				0A742C5B18412A4600B3CB79 /* Nibble */,
+				0A742C5418412A4600B3CB79 /* Frameworks */,
+				0A742C5318412A4600B3CB79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A742C5318412A4600B3CB79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A742C5218412A4600B3CB79 /* Nibble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A742C5418412A4600B3CB79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A742C5518412A4600B3CB79 /* UIKit.framework */,
+				0A742C5718412A4600B3CB79 /* Foundation.framework */,
+				0A742C5918412A4600B3CB79 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A742C5B18412A4600B3CB79 /* Nibble */ = {
+			isa = PBXGroup;
+			children = (
+				0A742C6418412A4600B3CB79 /* NBLAppDelegate.h */,
+				0A742C6518412A4600B3CB79 /* NBLAppDelegate.m */,
+				0A742C6D18412A4600B3CB79 /* MainStoryboard.storyboard */,
+				0A742C7018412A4600B3CB79 /* NBLViewController.h */,
+				0A742C7118412A4600B3CB79 /* NBLViewController.m */,
+				0A742C5C18412A4600B3CB79 /* Supporting Files */,
+			);
+			path = Nibble;
+			sourceTree = "<group>";
+		};
+		0A742C5C18412A4600B3CB79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A742C5D18412A4600B3CB79 /* Nibble-Info.plist */,
+				0A742C5E18412A4600B3CB79 /* InfoPlist.strings */,
+				0A742C6118412A4600B3CB79 /* main.m */,
+				0A742C6318412A4600B3CB79 /* Nibble-Prefix.pch */,
+				0A742C6718412A4600B3CB79 /* Default.png */,
+				0A742C6918412A4600B3CB79 /* Default@2x.png */,
+				0A742C6B18412A4600B3CB79 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A742C5118412A4600B3CB79 /* Nibble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A742C7518412A4600B3CB79 /* Build configuration list for PBXNativeTarget "Nibble" */;
+			buildPhases = (
+				0A742C4E18412A4600B3CB79 /* Sources */,
+				0A742C4F18412A4600B3CB79 /* Frameworks */,
+				0A742C5018412A4600B3CB79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nibble;
+			productName = Nibble;
+			productReference = 0A742C5218412A4600B3CB79 /* Nibble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A742C4A18412A4600B3CB79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NBL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = NibbleNibble;
+			};
+			buildConfigurationList = 0A742C4D18412A4600B3CB79 /* Build configuration list for PBXProject "Nibble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A742C4918412A4600B3CB79;
+			productRefGroup = 0A742C5318412A4600B3CB79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A742C5118412A4600B3CB79 /* Nibble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A742C5018412A4600B3CB79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A742C6018412A4600B3CB79 /* InfoPlist.strings in Resources */,
+				0A742C6818412A4600B3CB79 /* Default.png in Resources */,
+				0A742C6A18412A4600B3CB79 /* Default@2x.png in Resources */,
+				0A742C6C18412A4600B3CB79 /* Default-568h@2x.png in Resources */,
+				0A742C6F18412A4600B3CB79 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A742C4E18412A4600B3CB79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A742C6218412A4600B3CB79 /* main.m in Sources */,
+				0A742C6618412A4600B3CB79 /* NBLAppDelegate.m in Sources */,
+				0A742C7218412A4600B3CB79 /* NBLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A742C5E18412A4600B3CB79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A742C5F18412A4600B3CB79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A742C6D18412A4600B3CB79 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A742C6E18412A4600B3CB79 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A742C7318412A4600B3CB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A742C7418412A4600B3CB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A742C7618412A4600B3CB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nibble/Nibble-Prefix.pch";
+				INFOPLIST_FILE = "Nibble/Nibble-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A742C7718412A4600B3CB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nibble/Nibble-Prefix.pch";
+				INFOPLIST_FILE = "Nibble/Nibble-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A742C4D18412A4600B3CB79 /* Build configuration list for PBXProject "Nibble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A742C7318412A4600B3CB79 /* Debug */,
+				0A742C7418412A4600B3CB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A742C7518412A4600B3CB79 /* Build configuration list for PBXNativeTarget "Nibble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A742C7618412A4600B3CB79 /* Debug */,
+				0A742C7718412A4600B3CB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A742C4A18412A4600B3CB79 /* Project object */;
+}
