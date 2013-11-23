@@ -18,9 +18,12 @@
 		0A742C6C18412A4600B3CB79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A742C6B18412A4600B3CB79 /* Default-568h@2x.png */; };
 		0A742C6F18412A4600B3CB79 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A742C6D18412A4600B3CB79 /* MainStoryboard.storyboard */; };
 		0A742C7218412A4600B3CB79 /* NBLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A742C7118412A4600B3CB79 /* NBLViewController.m */; };
-		9EF9B94018413DF200A15EC1 /* nibbl-title.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B93F18413DF200A15EC1 /* nibbl-title.png */; };
 		9EF9B942184141A400A15EC1 /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B941184141A400A15EC1 /* navbar.png */; };
 		9EF9B944184149B100A15EC1 /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B943184149B100A15EC1 /* menu-icon.png */; };
+		9EF9B9481841510D00A15EC1 /* clock-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B9451841510D00A15EC1 /* clock-green.png */; };
+		9EF9B9491841510D00A15EC1 /* clock-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B9461841510D00A15EC1 /* clock-red.png */; };
+		9EF9B94A1841510D00A15EC1 /* clock-yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B9471841510D00A15EC1 /* clock-yellow.png */; };
+		9EF9B94D184153C300A15EC1 /* Muchacho.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B94B1841532E00A15EC1 /* Muchacho.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,9 +43,12 @@
 		0A742C6E18412A4600B3CB79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0A742C7018412A4600B3CB79 /* NBLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLViewController.h; sourceTree = "<group>"; };
 		0A742C7118412A4600B3CB79 /* NBLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLViewController.m; sourceTree = "<group>"; };
-		9EF9B93F18413DF200A15EC1 /* nibbl-title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nibbl-title.png"; sourceTree = "<group>"; };
 		9EF9B941184141A400A15EC1 /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
 		9EF9B943184149B100A15EC1 /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
+		9EF9B9451841510D00A15EC1 /* clock-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-green.png"; sourceTree = "<group>"; };
+		9EF9B9461841510D00A15EC1 /* clock-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-red.png"; sourceTree = "<group>"; };
+		9EF9B9471841510D00A15EC1 /* clock-yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-yellow.png"; sourceTree = "<group>"; };
+		9EF9B94B1841532E00A15EC1 /* Muchacho.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Muchacho.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +100,11 @@
 				0A742C6D18412A4600B3CB79 /* MainStoryboard.storyboard */,
 				0A742C7018412A4600B3CB79 /* NBLViewController.h */,
 				0A742C7118412A4600B3CB79 /* NBLViewController.m */,
-				9EF9B93F18413DF200A15EC1 /* nibbl-title.png */,
 				9EF9B941184141A400A15EC1 /* navbar.png */,
 				9EF9B943184149B100A15EC1 /* menu-icon.png */,
+				9EF9B9451841510D00A15EC1 /* clock-green.png */,
+				9EF9B9461841510D00A15EC1 /* clock-red.png */,
+				9EF9B9471841510D00A15EC1 /* clock-yellow.png */,
 				0A742C5C18412A4600B3CB79 /* Supporting Files */,
 			);
 			path = Nibble;
@@ -105,6 +113,7 @@
 		0A742C5C18412A4600B3CB79 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9EF9B94C1841533B00A15EC1 /* Fonts */,
 				0A742C5D18412A4600B3CB79 /* Nibble-Info.plist */,
 				0A742C5E18412A4600B3CB79 /* InfoPlist.strings */,
 				0A742C6118412A4600B3CB79 /* main.m */,
@@ -114,6 +123,14 @@
 				0A742C6B18412A4600B3CB79 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EF9B94C1841533B00A15EC1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9EF9B94B1841532E00A15EC1 /* Muchacho.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,11 +185,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EF9B94D184153C300A15EC1 /* Muchacho.ttf in Resources */,
 				9EF9B942184141A400A15EC1 /* navbar.png in Resources */,
 				0A742C6018412A4600B3CB79 /* InfoPlist.strings in Resources */,
 				0A742C6818412A4600B3CB79 /* Default.png in Resources */,
 				9EF9B944184149B100A15EC1 /* menu-icon.png in Resources */,
-				9EF9B94018413DF200A15EC1 /* nibbl-title.png in Resources */,
+				9EF9B94A1841510D00A15EC1 /* clock-yellow.png in Resources */,
+				9EF9B9491841510D00A15EC1 /* clock-red.png in Resources */,
+				9EF9B9481841510D00A15EC1 /* clock-green.png in Resources */,
 				0A742C6A18412A4600B3CB79 /* Default@2x.png in Resources */,
 				0A742C6C18412A4600B3CB79 /* Default-568h@2x.png in Resources */,
 				0A742C6F18412A4600B3CB79 /* MainStoryboard.storyboard in Resources */,

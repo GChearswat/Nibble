@@ -10,6 +10,13 @@
 
 @interface NBLViewController : UIViewController
 
+@property (strong, nonatomic) UIView *viewMenu;
+
+@property (weak, nonatomic) IBOutlet UITextField *textQuery;
+
+- (IBAction)buttonFindPushed:(id)sender;
+
 - (void)showMenu;
+- (void)showSearch;
 
 @end
