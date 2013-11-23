@@ -10,4 +10,6 @@
 
 @interface NBLViewController : UIViewController
 
+- (void)showMenu;
+
 @end

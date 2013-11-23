@@ -6,13 +6,17 @@
 //  Copyright (c) 2013 NibbleNibble. All rights reserved.
 //  New
 
+// Change2
+
 #import "NBLAppDelegate.h"
 
 @implementation NBLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [[UINavigationBar appearance] setBarTintColor:[UIColor blackColor]];
+    NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:[UIFont fontWithName:@"Georgia" size:26], NSFontAttributeName, [UIColor whiteColor], NSForegroundColorAttributeName, nil];
+    [[UINavigationBar appearance] setTitleTextAttributes:attributes];
     return YES;
 }
 							
