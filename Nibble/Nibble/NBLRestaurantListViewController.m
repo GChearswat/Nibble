@@ -24,7 +24,7 @@
         // Custom initialization
 //        _restaurantList = [NSArray init];
 //        NSDictionary temp = [NSDictionary alloc] initWithObjectsAndKeys:<#(id), ...#>, nil
-        [_restaurantList addObject:[[NBLRestaurant alloc] initRestaurant:<#(NSDictionary *)#>]]
+//        [_restaurantList addObject:[[NBLRestaurant alloc] initRestaurant:<#(NSDictionary *)#>]]
         
     }
     return self;
