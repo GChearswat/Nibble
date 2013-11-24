@@ -40,19 +40,17 @@
                                     <segue destination="yQr-n6-VOJ" kind="push" id="hiW-jw-JQR"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Zip Code" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ihb-sv-yaL">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Restaurant Name, Zip Code" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ihb-sv-yaL">
                                 <rect key="frame" x="37" y="113" width="246" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="246" id="ZQc-NS-qrY"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="6p2-Dr-bS8" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="0ly-RP-RLM"/>
+                            <constraint firstItem="Ihb-sv-yaL" firstAttribute="top" secondItem="6p2-Dr-bS8" secondAttribute="top" type="default" id="4tO-Cg-a2Q"/>
                             <constraint firstItem="Ihb-sv-yaL" firstAttribute="trailing" secondItem="6p2-Dr-bS8" secondAttribute="trailing" type="default" id="5Ah-RL-yXu"/>
                             <constraint firstItem="AYy-Jl-FJH" firstAttribute="top" secondItem="3" secondAttribute="top" constant="171" id="RcR-iS-cUv"/>
                             <constraint firstItem="Ihb-sv-yaL" firstAttribute="baseline" secondItem="6p2-Dr-bS8" secondAttribute="baseline" type="default" id="kwt-Dc-KjK"/>
@@ -74,16 +72,16 @@
         <scene sceneID="WNc-O2-jQk">
             <objects>
                 <tableViewController id="yQr-n6-VOJ" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="w2q-c0-MVn">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="74" sectionHeaderHeight="22" sectionFooterHeight="22" id="w2q-c0-MVn">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Vbs-OO-BzD">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="74" id="Vbs-OO-BzD">
+                                <rect key="frame" x="0.0" y="86" width="320" height="74"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="73"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
