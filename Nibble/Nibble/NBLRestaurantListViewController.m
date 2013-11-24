@@ -10,7 +10,6 @@
 
 @interface NBLRestaurantListViewController ()
 
-@property (strong, nonatomic) NSArray *
 
 @end
 
