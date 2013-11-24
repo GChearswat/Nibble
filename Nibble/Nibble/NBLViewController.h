@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NBLServerConnection.h"
 
 @interface NBLViewController : UIViewController
 
@@ -18,5 +19,6 @@
 
 - (void)showMenu;
 - (void)showSearch;
+- (void)queryDidLoad:(NBLServerConnection *)connection;
 
 @end
