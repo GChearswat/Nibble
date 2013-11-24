@@ -22,12 +22,14 @@ typedef enum
 @property (strong, nonatomic) NSString *address;
 @property (strong, nonatomic) NSString *city;
 @property (strong, nonatomic) NSString *state;
+@property (strong, nonatomic) NSString *category;
 @property int zip;
 @property float latitude;
 @property float logitude;
 @property int facebookCheckinCount;
 @property int fourSquareCheckinCount;
 @property int yelpCheckinCount;
-@property RestaurantTrafficLevel *currentTrafficLevel;
+@property RestaurantTrafficLevel currentTrafficLevel;
 
+- (void) initRestaurant: (NSDictionary*) info;
 @end
