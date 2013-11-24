@@ -10,7 +10,6 @@
 		0A648DA1184188AF00783B37 /* GreenTime.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A648D9E184188AF00783B37 /* GreenTime.png */; };
 		0A648DA2184188AF00783B37 /* RedTime.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A648D9F184188AF00783B37 /* RedTime.png */; };
 		0A648DA3184188AF00783B37 /* YellowTime.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A648DA0184188AF00783B37 /* YellowTime.png */; };
-		0A648DA51841894C00783B37 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A648DA41841894C00783B37 /* Lato-Light.ttf */; };
 		0A648DA718418DC500783B37 /* RightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A648DA618418DC500783B37 /* RightArrow.png */; };
 		0A648DA918419C2A00783B37 /* TestRestaurants.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A648DA818419C2A00783B37 /* TestRestaurants.plist */; };
 		0A742C5618412A4600B3CB79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A742C5518412A4600B3CB79 /* UIKit.framework */; };
@@ -37,7 +36,6 @@
 		0A648D9E184188AF00783B37 /* GreenTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenTime.png; sourceTree = "<group>"; };
 		0A648D9F184188AF00783B37 /* RedTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedTime.png; sourceTree = "<group>"; };
 		0A648DA0184188AF00783B37 /* YellowTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowTime.png; sourceTree = "<group>"; };
-		0A648DA41841894C00783B37 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		0A648DA618418DC500783B37 /* RightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightArrow.png; sourceTree = "<group>"; };
 		0A648DA818419C2A00783B37 /* TestRestaurants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestRestaurants.plist; sourceTree = "<group>"; };
 		0A742C5218412A4600B3CB79 /* Nibble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nibble.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,7 +172,6 @@
 		9EF9B94C1841533B00A15EC1 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				0A648DA41841894C00783B37 /* Lato-Light.ttf */,
 				9EF9B94B1841532E00A15EC1 /* Muchacho.ttf */,
 			);
 			name = Fonts;
@@ -235,7 +232,6 @@
 				9EF9B94D184153C300A15EC1 /* Muchacho.ttf in Resources */,
 				0A648DA1184188AF00783B37 /* GreenTime.png in Resources */,
 				0A648DA2184188AF00783B37 /* RedTime.png in Resources */,
-				0A648DA51841894C00783B37 /* Lato-Light.ttf in Resources */,
 				9EF9B942184141A400A15EC1 /* navbar.png in Resources */,
 				0A648DA918419C2A00783B37 /* TestRestaurants.plist in Resources */,
 				0A742C6018412A4600B3CB79 /* InfoPlist.strings in Resources */,
