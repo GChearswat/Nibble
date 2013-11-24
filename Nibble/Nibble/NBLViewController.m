@@ -35,8 +35,8 @@
 
 - (IBAction)buttonFindPushed:(id)sender {
     
-//    NBLServerConnection *connection = [[NBLServerConnection alloc] init];
-//    [connection sendQuery:[NSString stringWithFormat:@"zip=%@", _textQuery.text] withTarget:self selector:@selector(queryDidLoad:)];
+    NBLServerConnection *connection = [[NBLServerConnection alloc] init];
+    [connection sendQuery:[NSString stringWithFormat:@"zip=%@", _textQuery.text] withTarget:self selector:@selector(queryDidLoad:)];
 }
 
 - (void)showMenu {
