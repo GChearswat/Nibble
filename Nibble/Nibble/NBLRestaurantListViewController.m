@@ -22,8 +22,8 @@
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
-        _restaurantList = [NSArray init];
-        NSDictionary temp = [NSDictionary alloc] initWithObjectsAndKeys:<#(id), ...#>, nil
+//        _restaurantList = [NSArray init];
+//        NSDictionary temp = [NSDictionary alloc] initWithObjectsAndKeys:<#(id), ...#>, nil
         [_restaurantList addObject:[[NBLRestaurant alloc] initRestaurant:<#(NSDictionary *)#>]]
         
     }
