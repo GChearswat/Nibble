@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A648DA1184188AF00783B37 /* GreenTime.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A648D9E184188AF00783B37 /* GreenTime.png */; };
+		0A648DA2184188AF00783B37 /* RedTime.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A648D9F184188AF00783B37 /* RedTime.png */; };
+		0A648DA3184188AF00783B37 /* YellowTime.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A648DA0184188AF00783B37 /* YellowTime.png */; };
+		0A648DA51841894C00783B37 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A648DA41841894C00783B37 /* Lato-Light.ttf */; };
+		0A648DA718418DC500783B37 /* RightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A648DA618418DC500783B37 /* RightArrow.png */; };
+		0A648DA918419C2A00783B37 /* TestRestaurants.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A648DA818419C2A00783B37 /* TestRestaurants.plist */; };
 		0A742C5618412A4600B3CB79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A742C5518412A4600B3CB79 /* UIKit.framework */; };
 		0A742C5818412A4600B3CB79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A742C5718412A4600B3CB79 /* Foundation.framework */; };
 		0A742C5A18412A4600B3CB79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A742C5918412A4600B3CB79 /* CoreGraphics.framework */; };
@@ -20,11 +26,9 @@
 		0A742C7218412A4600B3CB79 /* NBLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A742C7118412A4600B3CB79 /* NBLViewController.m */; };
 		0AE6C33918417D4C00ACAE4E /* NBLRestaurantListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6C33818417D4C00ACAE4E /* NBLRestaurantListViewController.m */; };
 		0AE6C33E18417F9F00ACAE4E /* NBLRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6C33D18417F9F00ACAE4E /* NBLRestaurant.m */; };
+		0AE6C3411841862600ACAE4E /* NBLRestaurantTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6C3401841862600ACAE4E /* NBLRestaurantTableCell.m */; };
 		9EF9B942184141A400A15EC1 /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B941184141A400A15EC1 /* navbar.png */; };
 		9EF9B944184149B100A15EC1 /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B943184149B100A15EC1 /* menu-icon.png */; };
-		9EF9B9481841510D00A15EC1 /* clock-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B9451841510D00A15EC1 /* clock-green.png */; };
-		9EF9B9491841510D00A15EC1 /* clock-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B9461841510D00A15EC1 /* clock-red.png */; };
-		9EF9B94A1841510D00A15EC1 /* clock-yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B9471841510D00A15EC1 /* clock-yellow.png */; };
 		9EF9B94D184153C300A15EC1 /* Muchacho.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B94B1841532E00A15EC1 /* Muchacho.ttf */; };
 		9EF9B950184174F400A15EC1 /* NBLServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF9B94F184174F400A15EC1 /* NBLServerConnection.m */; };
 		9EF9B9541841857F00A15EC1 /* NBLRestaurantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF9B9531841857F00A15EC1 /* NBLRestaurantViewController.m */; };
@@ -43,6 +47,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A648D9E184188AF00783B37 /* GreenTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenTime.png; sourceTree = "<group>"; };
+		0A648D9F184188AF00783B37 /* RedTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedTime.png; sourceTree = "<group>"; };
+		0A648DA0184188AF00783B37 /* YellowTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowTime.png; sourceTree = "<group>"; };
+		0A648DA41841894C00783B37 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		0A648DA618418DC500783B37 /* RightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightArrow.png; sourceTree = "<group>"; };
+		0A648DA818419C2A00783B37 /* TestRestaurants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestRestaurants.plist; sourceTree = "<group>"; };
 		0A742C5218412A4600B3CB79 /* Nibble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nibble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A742C5518412A4600B3CB79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0A742C5718412A4600B3CB79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,11 +73,10 @@
 		0AE6C33818417D4C00ACAE4E /* NBLRestaurantListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLRestaurantListViewController.m; sourceTree = "<group>"; };
 		0AE6C33C18417F9F00ACAE4E /* NBLRestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLRestaurant.h; sourceTree = "<group>"; };
 		0AE6C33D18417F9F00ACAE4E /* NBLRestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLRestaurant.m; sourceTree = "<group>"; };
+		0AE6C33F1841862600ACAE4E /* NBLRestaurantTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLRestaurantTableCell.h; sourceTree = "<group>"; };
+		0AE6C3401841862600ACAE4E /* NBLRestaurantTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLRestaurantTableCell.m; sourceTree = "<group>"; };
 		9EF9B941184141A400A15EC1 /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
 		9EF9B943184149B100A15EC1 /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
-		9EF9B9451841510D00A15EC1 /* clock-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-green.png"; sourceTree = "<group>"; };
-		9EF9B9461841510D00A15EC1 /* clock-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-red.png"; sourceTree = "<group>"; };
-		9EF9B9471841510D00A15EC1 /* clock-yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-yellow.png"; sourceTree = "<group>"; };
 		9EF9B94B1841532E00A15EC1 /* Muchacho.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Muchacho.ttf; sourceTree = "<group>"; };
 		9EF9B94E184174F400A15EC1 /* NBLServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLServerConnection.h; sourceTree = "<group>"; };
 		9EF9B94F184174F400A15EC1 /* NBLServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLServerConnection.m; sourceTree = "<group>"; };
@@ -102,6 +111,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A648D9D184188A500783B37 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9EF9B941184141A400A15EC1 /* navbar.png */,
+				9EF9B943184149B100A15EC1 /* menu-icon.png */,
+				0A648D9E184188AF00783B37 /* GreenTime.png */,
+				0A648D9F184188AF00783B37 /* RedTime.png */,
+				0A648DA0184188AF00783B37 /* YellowTime.png */,
+				0A648DA618418DC500783B37 /* RightArrow.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		0A742C4918412A4600B3CB79 = {
 			isa = PBXGroup;
 			children = (
@@ -141,13 +163,6 @@
 				0A742C7118412A4600B3CB79 /* NBLViewController.m */,
 				9EF9B94E184174F400A15EC1 /* NBLServerConnection.h */,
 				9EF9B94F184174F400A15EC1 /* NBLServerConnection.m */,
-				9EF9B941184141A400A15EC1 /* navbar.png */,
-				9EF9B943184149B100A15EC1 /* menu-icon.png */,
-				9EF9B9451841510D00A15EC1 /* clock-green.png */,
-				9EF9B9461841510D00A15EC1 /* clock-red.png */,
-				9EF9B9471841510D00A15EC1 /* clock-yellow.png */,
-				0AE6C33B18417F0600ACAE4E /* Model */,
-				0A742C5C18412A4600B3CB79 /* Supporting Files */,
 				0AE6C33718417D4C00ACAE4E /* NBLRestaurantListViewController.h */,
 				0AE6C33818417D4C00ACAE4E /* NBLRestaurantListViewController.m */,
 				9EF9B9521841857F00A15EC1 /* NBLRestaurantViewController.h */,
@@ -271,9 +286,14 @@
 				9EF9B969184195C200A15EC1 /* Lato-LightItalic.ttf in Resources */,
 				9EF9B96A184195C200A15EC1 /* Lato-Regular.ttf in Resources */,
 				9EF9B94D184153C300A15EC1 /* Muchacho.ttf in Resources */,
+				0A648DA1184188AF00783B37 /* GreenTime.png in Resources */,
+				0A648DA2184188AF00783B37 /* RedTime.png in Resources */,
+				0A648DA51841894C00783B37 /* Lato-Light.ttf in Resources */,
 				9EF9B942184141A400A15EC1 /* navbar.png in Resources */,
+				0A648DA918419C2A00783B37 /* TestRestaurants.plist in Resources */,
 				0A742C6018412A4600B3CB79 /* InfoPlist.strings in Resources */,
 				0A742C6818412A4600B3CB79 /* Default.png in Resources */,
+				0A648DA3184188AF00783B37 /* YellowTime.png in Resources */,
 				9EF9B944184149B100A15EC1 /* menu-icon.png in Resources */,
 				9EF9B94A1841510D00A15EC1 /* clock-yellow.png in Resources */,
 				9EF9B9491841510D00A15EC1 /* clock-red.png in Resources */,
@@ -296,6 +316,7 @@
 				0AE6C33E18417F9F00ACAE4E /* NBLRestaurant.m in Sources */,
 				9EF9B9541841857F00A15EC1 /* NBLRestaurantViewController.m in Sources */,
 				0A742C6218412A4600B3CB79 /* main.m in Sources */,
+				0AE6C3411841862600ACAE4E /* NBLRestaurantTableCell.m in Sources */,
 				0A742C6618412A4600B3CB79 /* NBLAppDelegate.m in Sources */,
 				0A742C7218412A4600B3CB79 /* NBLViewController.m in Sources */,
 				9EF9B950184174F400A15EC1 /* NBLServerConnection.m in Sources */,

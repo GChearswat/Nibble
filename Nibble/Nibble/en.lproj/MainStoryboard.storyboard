@@ -83,8 +83,57 @@
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="73"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="avn-s9-77v">
+                                            <rect key="frame" x="20" y="10" width="52" height="52"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="52" id="EkN-zt-9h9"/>
+                                                <constraint firstAttribute="height" constant="52" id="iUj-VJ-go0"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rest. Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpK-0h-PsA">
+                                            <rect key="frame" x="80" y="10" width="209" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="209" id="e62-sx-Iph"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RightArrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Hm-bN-0j6">
+                                            <rect key="frame" x="290" y="24" width="21" height="28"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="21" id="CWg-Th-LsK"/>
+                                                <constraint firstAttribute="height" constant="28" id="j5w-lr-lyV"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZIS-cu-bu8">
+                                            <rect key="frame" x="80" y="35" width="114" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
+                                <constraints>
+                                    <constraint firstItem="avn-s9-77v" firstAttribute="leading" secondItem="Vbs-OO-BzD" secondAttribute="leading" constant="20" type="default" id="1GA-pL-yjC"/>
+                                    <constraint firstItem="ZIS-cu-bu8" firstAttribute="leading" secondItem="avn-s9-77v" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="JPl-oX-MST"/>
+                                    <constraint firstItem="tpK-0h-PsA" firstAttribute="top" secondItem="avn-s9-77v" secondAttribute="top" type="default" id="Qeo-gr-khI"/>
+                                    <constraint firstItem="4Hm-bN-0j6" firstAttribute="centerY" secondItem="Vbs-OO-BzD" secondAttribute="centerY" constant="-0.5" type="default" id="gLB-HA-BqO"/>
+                                    <constraint firstItem="tpK-0h-PsA" firstAttribute="leading" secondItem="avn-s9-77v" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="nDm-kO-lDg"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZIS-cu-bu8" secondAttribute="bottom" constant="21" type="default" id="pu8-2P-p17"/>
+                                    <constraint firstItem="avn-s9-77v" firstAttribute="top" secondItem="Vbs-OO-BzD" secondAttribute="top" constant="10" id="s4N-p8-tbd"/>
+                                    <constraint firstAttribute="trailing" secondItem="4Hm-bN-0j6" secondAttribute="trailing" constant="9" id="yKk-7z-yOY"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="clockImage" destination="avn-s9-77v" id="o5v-zh-s5f"/>
+                                    <outlet property="distanceLabel" destination="ZIS-cu-bu8" id="gvu-mc-09V"/>
+                                    <outlet property="restaurantNameLabel" destination="tpK-0h-PsA" id="zRE-G0-vC3"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -149,6 +198,9 @@
             <point key="canvasLocation" x="-543" y="71"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="RightArrow.png" width="27" height="35"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
