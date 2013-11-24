@@ -18,6 +18,8 @@
 		0A742C6C18412A4600B3CB79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A742C6B18412A4600B3CB79 /* Default-568h@2x.png */; };
 		0A742C6F18412A4600B3CB79 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A742C6D18412A4600B3CB79 /* MainStoryboard.storyboard */; };
 		0A742C7218412A4600B3CB79 /* NBLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A742C7118412A4600B3CB79 /* NBLViewController.m */; };
+		0AE6C33918417D4C00ACAE4E /* NBLRestaurantListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6C33818417D4C00ACAE4E /* NBLRestaurantListViewController.m */; };
+		0AE6C33E18417F9F00ACAE4E /* NBLRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6C33D18417F9F00ACAE4E /* NBLRestaurant.m */; };
 		9EF9B942184141A400A15EC1 /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B941184141A400A15EC1 /* navbar.png */; };
 		9EF9B944184149B100A15EC1 /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B943184149B100A15EC1 /* menu-icon.png */; };
 		9EF9B9481841510D00A15EC1 /* clock-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B9451841510D00A15EC1 /* clock-green.png */; };
@@ -44,6 +46,10 @@
 		0A742C6E18412A4600B3CB79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0A742C7018412A4600B3CB79 /* NBLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLViewController.h; sourceTree = "<group>"; };
 		0A742C7118412A4600B3CB79 /* NBLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLViewController.m; sourceTree = "<group>"; };
+		0AE6C33718417D4C00ACAE4E /* NBLRestaurantListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLRestaurantListViewController.h; sourceTree = "<group>"; };
+		0AE6C33818417D4C00ACAE4E /* NBLRestaurantListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLRestaurantListViewController.m; sourceTree = "<group>"; };
+		0AE6C33C18417F9F00ACAE4E /* NBLRestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLRestaurant.h; sourceTree = "<group>"; };
+		0AE6C33D18417F9F00ACAE4E /* NBLRestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLRestaurant.m; sourceTree = "<group>"; };
 		9EF9B941184141A400A15EC1 /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
 		9EF9B943184149B100A15EC1 /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
 		9EF9B9451841510D00A15EC1 /* clock-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-green.png"; sourceTree = "<group>"; };
@@ -112,7 +118,10 @@
 				9EF9B9451841510D00A15EC1 /* clock-green.png */,
 				9EF9B9461841510D00A15EC1 /* clock-red.png */,
 				9EF9B9471841510D00A15EC1 /* clock-yellow.png */,
+				0AE6C33B18417F0600ACAE4E /* Model */,
 				0A742C5C18412A4600B3CB79 /* Supporting Files */,
+				0AE6C33718417D4C00ACAE4E /* NBLRestaurantListViewController.h */,
+				0AE6C33818417D4C00ACAE4E /* NBLRestaurantListViewController.m */,
 			);
 			path = Nibble;
 			sourceTree = "<group>";
@@ -130,6 +139,15 @@
 				0A742C6B18412A4600B3CB79 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AE6C33B18417F0600ACAE4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AE6C33C18417F9F00ACAE4E /* NBLRestaurant.h */,
+				0AE6C33D18417F9F00ACAE4E /* NBLRestaurant.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		9EF9B94C1841533B00A15EC1 /* Fonts */ = {
@@ -213,6 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE6C33918417D4C00ACAE4E /* NBLRestaurantListViewController.m in Sources */,
+				0AE6C33E18417F9F00ACAE4E /* NBLRestaurant.m in Sources */,
 				0A742C6218412A4600B3CB79 /* main.m in Sources */,
 				0A742C6618412A4600B3CB79 /* NBLAppDelegate.m in Sources */,
 				0A742C7218412A4600B3CB79 /* NBLViewController.m in Sources */,
