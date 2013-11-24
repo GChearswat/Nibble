@@ -41,7 +41,10 @@
 
 - (void)showMenu {
     
-    
+    NBLRestaurantViewController *restaurantView = [[UIStoryboard storyboardWithName:@"MainStoryboard" bundle:NULL] instantiateViewControllerWithIdentifier:@"NBLRestaurantView"];
+    restaurantView.restaurant = [[NBLRestaurant alloc] init];
+    restaurantView.restaurant.name = @"General Lee's";
+    [self.navigationController pushViewController:restaurantView animated:YES];
 }
 
 - (void)showSearch {

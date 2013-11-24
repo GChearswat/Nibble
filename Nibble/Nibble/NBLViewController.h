@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NBLRestaurantViewController.h"
 #import "NBLServerConnection.h"
 
 @interface NBLViewController : UIViewController
