@@ -14,12 +14,13 @@
 
 @implementation NBLRestaurantViewController
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     [self.navigationItem.leftBarButtonItem setTintColor:[UIColor whiteColor]];
-    self.title = _restaurant.name.uppercaseString;
+    self.title = @"RESTAURANT";
     _webViewMain.delegate = self;
 	NSURLRequest *request = [NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:@"Restaurant" withExtension:@"html"]];
     [_webViewMain loadRequest:request];

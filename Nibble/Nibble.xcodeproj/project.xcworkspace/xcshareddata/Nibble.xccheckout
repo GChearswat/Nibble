@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9448539C-DEF0-481E-BFC7-B1E0F6C9405A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Nibble</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E8F1C15F-514C-4B88-8D1F-95B602B2749A</key>
+		<string>https://github.com/GChearswat/Nibble.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Nibble/Nibble.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E8F1C15F-514C-4B88-8D1F-95B602B2749A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/GChearswat/Nibble.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E8F1C15F-514C-4B88-8D1F-95B602B2749A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E8F1C15F-514C-4B88-8D1F-95B602B2749A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Nibble</string>
+		</dict>
+	</array>
+</dict>
+</plist>

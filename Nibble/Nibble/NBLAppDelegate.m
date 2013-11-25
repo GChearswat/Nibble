@@ -17,6 +17,16 @@
     [[UINavigationBar appearance] setBarTintColor:[UIColor blackColor]];
     NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:[UIFont fontWithName:@"Muchacho" size:26], NSFontAttributeName, [UIColor whiteColor], NSForegroundColorAttributeName, nil];
     [[UINavigationBar appearance] setTitleTextAttributes:attributes];
+    NSDictionary *attributes2 = [NSDictionary dictionaryWithObjectsAndKeys:
+                                [UIColor whiteColor],
+                                UITextAttributeTextColor,
+                                [UIColor clearColor],
+                                UITextAttributeTextShadowColor,
+                                 [UIFont fontWithName:@"Muchacho" size:10],
+                                 NSFontAttributeName, nil];
+
+    [[UIBarButtonItem appearance] setTitleTextAttributes: attributes
+                                                forState: UIControlStateNormal];
     return YES;
 }
 							

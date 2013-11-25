@@ -13,12 +13,14 @@
 @interface NBLViewController : UIViewController
 
 @property (strong, nonatomic) UIView *viewMenu;
+@property BOOL menuOpen;
 
 @property (weak, nonatomic) IBOutlet UITextField *textQuery;
 
 - (IBAction)buttonFindPushed:(id)sender;
 
 - (void)showMenu;
+- (void)hideMenu;
 - (void)showSearch;
 - (void)queryDidLoad:(NBLServerConnection *)connection;
 

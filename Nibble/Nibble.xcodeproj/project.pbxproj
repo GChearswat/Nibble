@@ -20,6 +20,23 @@
 		0A742C7218412A4600B3CB79 /* NBLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A742C7118412A4600B3CB79 /* NBLViewController.m */; };
 		0AE6C33918417D4C00ACAE4E /* NBLRestaurantListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6C33818417D4C00ACAE4E /* NBLRestaurantListViewController.m */; };
 		0AE6C33E18417F9F00ACAE4E /* NBLRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6C33D18417F9F00ACAE4E /* NBLRestaurant.m */; };
+		9EAF21F618428E8900D5C066 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF21F518428E8900D5C066 /* Lato-Light.ttf */; };
+		9EAF21F8184291EA00D5C066 /* RightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF21F7184291EA00D5C066 /* RightArrow.png */; };
+		9EAF21FA1842A20C00D5C066 /* restaurant-page.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF21F91842A20C00D5C066 /* restaurant-page.png */; };
+		9EAF21FC1842BC4E00D5C066 /* nibbl-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF21FB1842BC4E00D5C066 /* nibbl-menu.png */; };
+		9EAF21FE1842C78700D5C066 /* samoas.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF21FD1842C78700D5C066 /* samoas.png */; };
+		9EAF22041842D1E700D5C066 /* RedX.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF22021842D1E700D5C066 /* RedX.png */; };
+		9EAF22051842D1E700D5C066 /* whiterightarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF22031842D1E700D5C066 /* whiterightarrow.png */; };
+		9EAF22071842D22000D5C066 /* greenrightarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF22061842D22000D5C066 /* greenrightarrow.png */; };
+		9EAF220A1842D46700D5C066 /* NBLReserveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF22091842D46700D5C066 /* NBLReserveViewController.m */; };
+		9EAF220E1842D59100D5C066 /* appetizer.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF220B1842D59100D5C066 /* appetizer.png */; };
+		9EAF220F1842D59100D5C066 /* salad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF220C1842D59100D5C066 /* salad.png */; };
+		9EAF22101842D59100D5C066 /* wut.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF220D1842D59100D5C066 /* wut.png */; };
+		9EAF22141842D66D00D5C066 /* creme.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF22111842D66D00D5C066 /* creme.png */; };
+		9EAF22151842D66D00D5C066 /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF22121842D66D00D5C066 /* pizza.png */; };
+		9EAF22161842D66D00D5C066 /* sushi.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF22131842D66D00D5C066 /* sushi.png */; };
+		9EAF22191842D87500D5C066 /* samoas1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF22171842D87500D5C066 /* samoas1.png */; };
+		9EAF221A1842D87500D5C066 /* sushi-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF22181842D87500D5C066 /* sushi-hd.png */; };
 		9EF9B942184141A400A15EC1 /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B941184141A400A15EC1 /* navbar.png */; };
 		9EF9B944184149B100A15EC1 /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B943184149B100A15EC1 /* menu-icon.png */; };
 		9EF9B9481841510D00A15EC1 /* clock-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B9451841510D00A15EC1 /* clock-green.png */; };
@@ -36,7 +53,6 @@
 		9EF9B965184195C200A15EC1 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B95B184195AE00A15EC1 /* Lato-Hairline.ttf */; };
 		9EF9B966184195C200A15EC1 /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B95C184195AE00A15EC1 /* Lato-HairlineItalic.ttf */; };
 		9EF9B967184195C200A15EC1 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B95D184195AE00A15EC1 /* Lato-Italic.ttf */; };
-		9EF9B968184195C200A15EC1 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B95E184195AE00A15EC1 /* Lato-Light.ttf */; };
 		9EF9B969184195C200A15EC1 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B95F184195AE00A15EC1 /* Lato-LightItalic.ttf */; };
 		9EF9B96A184195C200A15EC1 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B960184195AE00A15EC1 /* Lato-Regular.ttf */; };
 		9EF9B96C184199E000A15EC1 /* general-lees-photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9B96B184199E000A15EC1 /* general-lees-photo.png */; };
@@ -64,6 +80,24 @@
 		0AE6C33818417D4C00ACAE4E /* NBLRestaurantListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLRestaurantListViewController.m; sourceTree = "<group>"; };
 		0AE6C33C18417F9F00ACAE4E /* NBLRestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLRestaurant.h; sourceTree = "<group>"; };
 		0AE6C33D18417F9F00ACAE4E /* NBLRestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLRestaurant.m; sourceTree = "<group>"; };
+		9EAF21F518428E8900D5C066 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		9EAF21F7184291EA00D5C066 /* RightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightArrow.png; sourceTree = "<group>"; };
+		9EAF21F91842A20C00D5C066 /* restaurant-page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restaurant-page.png"; sourceTree = "<group>"; };
+		9EAF21FB1842BC4E00D5C066 /* nibbl-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nibbl-menu.png"; sourceTree = "<group>"; };
+		9EAF21FD1842C78700D5C066 /* samoas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = samoas.png; sourceTree = "<group>"; };
+		9EAF22021842D1E700D5C066 /* RedX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedX.png; sourceTree = "<group>"; };
+		9EAF22031842D1E700D5C066 /* whiterightarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiterightarrow.png; sourceTree = "<group>"; };
+		9EAF22061842D22000D5C066 /* greenrightarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenrightarrow.png; sourceTree = "<group>"; };
+		9EAF22081842D46700D5C066 /* NBLReserveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLReserveViewController.h; sourceTree = "<group>"; };
+		9EAF22091842D46700D5C066 /* NBLReserveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLReserveViewController.m; sourceTree = "<group>"; };
+		9EAF220B1842D59100D5C066 /* appetizer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appetizer.png; sourceTree = "<group>"; };
+		9EAF220C1842D59100D5C066 /* salad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salad.png; sourceTree = "<group>"; };
+		9EAF220D1842D59100D5C066 /* wut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wut.png; sourceTree = "<group>"; };
+		9EAF22111842D66D00D5C066 /* creme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = creme.png; sourceTree = "<group>"; };
+		9EAF22121842D66D00D5C066 /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza.png; sourceTree = "<group>"; };
+		9EAF22131842D66D00D5C066 /* sushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sushi.png; sourceTree = "<group>"; };
+		9EAF22171842D87500D5C066 /* samoas1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = samoas1.png; sourceTree = "<group>"; };
+		9EAF22181842D87500D5C066 /* sushi-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi-hd.png"; sourceTree = "<group>"; };
 		9EF9B941184141A400A15EC1 /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
 		9EF9B943184149B100A15EC1 /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
 		9EF9B9451841510D00A15EC1 /* clock-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-green.png"; sourceTree = "<group>"; };
@@ -83,7 +117,6 @@
 		9EF9B95B184195AE00A15EC1 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
 		9EF9B95C184195AE00A15EC1 /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
 		9EF9B95D184195AE00A15EC1 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
-		9EF9B95E184195AE00A15EC1 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		9EF9B95F184195AE00A15EC1 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
 		9EF9B960184195AE00A15EC1 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		9EF9B96B184199E000A15EC1 /* general-lees-photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general-lees-photo.png"; sourceTree = "<group>"; };
@@ -147,13 +180,30 @@
 				9EF9B943184149B100A15EC1 /* menu-icon.png */,
 				9EF9B9451841510D00A15EC1 /* clock-green.png */,
 				9EF9B9461841510D00A15EC1 /* clock-red.png */,
+				9EAF21FD1842C78700D5C066 /* samoas.png */,
 				9EF9B9471841510D00A15EC1 /* clock-yellow.png */,
+				9EAF21F7184291EA00D5C066 /* RightArrow.png */,
+				9EAF21F91842A20C00D5C066 /* restaurant-page.png */,
+				9EAF21FB1842BC4E00D5C066 /* nibbl-menu.png */,
+				9EAF22021842D1E700D5C066 /* RedX.png */,
+				9EAF22061842D22000D5C066 /* greenrightarrow.png */,
+				9EAF22031842D1E700D5C066 /* whiterightarrow.png */,
+				9EAF220B1842D59100D5C066 /* appetizer.png */,
+				9EAF220C1842D59100D5C066 /* salad.png */,
+				9EAF220D1842D59100D5C066 /* wut.png */,
+				9EAF22111842D66D00D5C066 /* creme.png */,
+				9EAF22121842D66D00D5C066 /* pizza.png */,
+				9EAF22171842D87500D5C066 /* samoas1.png */,
+				9EAF22181842D87500D5C066 /* sushi-hd.png */,
+				9EAF22131842D66D00D5C066 /* sushi.png */,
 				0AE6C33B18417F0600ACAE4E /* Model */,
 				0A742C5C18412A4600B3CB79 /* Supporting Files */,
 				0AE6C33718417D4C00ACAE4E /* NBLRestaurantListViewController.h */,
 				0AE6C33818417D4C00ACAE4E /* NBLRestaurantListViewController.m */,
 				9EF9B9521841857F00A15EC1 /* NBLRestaurantViewController.h */,
 				9EF9B9531841857F00A15EC1 /* NBLRestaurantViewController.m */,
+				9EAF22081842D46700D5C066 /* NBLReserveViewController.h */,
+				9EAF22091842D46700D5C066 /* NBLReserveViewController.m */,
 			);
 			path = Nibble;
 			sourceTree = "<group>";
@@ -192,9 +242,9 @@
 				9EF9B959184195AE00A15EC1 /* Lato-Bold.ttf */,
 				9EF9B95A184195AE00A15EC1 /* Lato-BoldItalic.ttf */,
 				9EF9B95B184195AE00A15EC1 /* Lato-Hairline.ttf */,
+				9EAF21F518428E8900D5C066 /* Lato-Light.ttf */,
 				9EF9B95C184195AE00A15EC1 /* Lato-HairlineItalic.ttf */,
 				9EF9B95D184195AE00A15EC1 /* Lato-Italic.ttf */,
-				9EF9B95E184195AE00A15EC1 /* Lato-Light.ttf */,
 				9EF9B95F184195AE00A15EC1 /* Lato-LightItalic.ttf */,
 				9EF9B960184195AE00A15EC1 /* Lato-Regular.ttf */,
 				9EF9B94B1841532E00A15EC1 /* Muchacho.ttf */,
@@ -266,25 +316,40 @@
 				9EF9B962184195C200A15EC1 /* Lato-BlackItalic.ttf in Resources */,
 				9EF9B963184195C200A15EC1 /* Lato-Bold.ttf in Resources */,
 				9EF9B96F18419D6A00A15EC1 /* Restaurant.html in Resources */,
+				9EAF22101842D59100D5C066 /* wut.png in Resources */,
 				9EF9B96C184199E000A15EC1 /* general-lees-photo.png in Resources */,
 				9EF9B964184195C200A15EC1 /* Lato-BoldItalic.ttf in Resources */,
 				9EF9B965184195C200A15EC1 /* Lato-Hairline.ttf in Resources */,
 				9EF9B966184195C200A15EC1 /* Lato-HairlineItalic.ttf in Resources */,
 				9EF9B967184195C200A15EC1 /* Lato-Italic.ttf in Resources */,
-				9EF9B968184195C200A15EC1 /* Lato-Light.ttf in Resources */,
 				9EF9B969184195C200A15EC1 /* Lato-LightItalic.ttf in Resources */,
 				9EF9B96A184195C200A15EC1 /* Lato-Regular.ttf in Resources */,
 				9EF9B94D184153C300A15EC1 /* Muchacho.ttf in Resources */,
 				9EF9B942184141A400A15EC1 /* navbar.png in Resources */,
+				9EAF22151842D66D00D5C066 /* pizza.png in Resources */,
+				9EAF22071842D22000D5C066 /* greenrightarrow.png in Resources */,
+				9EAF220F1842D59100D5C066 /* salad.png in Resources */,
 				0A742C6018412A4600B3CB79 /* InfoPlist.strings in Resources */,
 				0A742C6818412A4600B3CB79 /* Default.png in Resources */,
+				9EAF21F618428E8900D5C066 /* Lato-Light.ttf in Resources */,
+				9EAF22161842D66D00D5C066 /* sushi.png in Resources */,
+				9EAF21FC1842BC4E00D5C066 /* nibbl-menu.png in Resources */,
 				9EF9B944184149B100A15EC1 /* menu-icon.png in Resources */,
+				9EAF21F8184291EA00D5C066 /* RightArrow.png in Resources */,
+				9EAF220E1842D59100D5C066 /* appetizer.png in Resources */,
 				9EF9B94A1841510D00A15EC1 /* clock-yellow.png in Resources */,
+				9EAF21FA1842A20C00D5C066 /* restaurant-page.png in Resources */,
+				9EAF21FE1842C78700D5C066 /* samoas.png in Resources */,
 				9EF9B9491841510D00A15EC1 /* clock-red.png in Resources */,
 				9EF9B9561841952F00A15EC1 /* Open Source Licenses.txt in Resources */,
+				9EAF22141842D66D00D5C066 /* creme.png in Resources */,
 				9EF9B9481841510D00A15EC1 /* clock-green.png in Resources */,
 				0A742C6A18412A4600B3CB79 /* Default@2x.png in Resources */,
+				9EAF22191842D87500D5C066 /* samoas1.png in Resources */,
+				9EAF221A1842D87500D5C066 /* sushi-hd.png in Resources */,
 				0A742C6C18412A4600B3CB79 /* Default-568h@2x.png in Resources */,
+				9EAF22041842D1E700D5C066 /* RedX.png in Resources */,
+				9EAF22051842D1E700D5C066 /* whiterightarrow.png in Resources */,
 				0A742C6F18412A4600B3CB79 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +365,7 @@
 				0AE6C33E18417F9F00ACAE4E /* NBLRestaurant.m in Sources */,
 				9EF9B9541841857F00A15EC1 /* NBLRestaurantViewController.m in Sources */,
 				0A742C6218412A4600B3CB79 /* main.m in Sources */,
+				9EAF220A1842D46700D5C066 /* NBLReserveViewController.m in Sources */,
 				0A742C6618412A4600B3CB79 /* NBLAppDelegate.m in Sources */,
 				0A742C7218412A4600B3CB79 /* NBLViewController.m in Sources */,
 				9EF9B950184174F400A15EC1 /* NBLServerConnection.m in Sources */,
