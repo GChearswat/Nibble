@@ -25,6 +25,8 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:menuIcon style:UIBarButtonItemStylePlain target:self action:@selector(showMenu)];
     [self.navigationItem.rightBarButtonItem setTintColor:[UIColor whiteColor]];
     
+    //Testing asana hook
+    
     /*
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch target:self action:@selector(showSearch)];
     [self.navigationItem.rightBarButtonItem setTintColor:[UIColor whiteColor]];
