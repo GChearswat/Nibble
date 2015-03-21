@@ -10,29 +10,29 @@
 	<string>Nibble</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>E8F1C15F-514C-4B88-8D1F-95B602B2749A</key>
+		<key>6515B4C5D763272C02FCA3E38457F5859AD2A852</key>
 		<string>https://github.com/GChearswat/Nibble.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Nibble/Nibble.xcodeproj/project.xcworkspace</string>
+	<string>Nibble/Nibble.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>E8F1C15F-514C-4B88-8D1F-95B602B2749A</key>
+		<key>6515B4C5D763272C02FCA3E38457F5859AD2A852</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/GChearswat/Nibble.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>E8F1C15F-514C-4B88-8D1F-95B602B2749A</string>
+	<string>6515B4C5D763272C02FCA3E38457F5859AD2A852</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>E8F1C15F-514C-4B88-8D1F-95B602B2749A</string>
+			<string>6515B4C5D763272C02FCA3E38457F5859AD2A852</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Nibble</string>
 		</dict>
